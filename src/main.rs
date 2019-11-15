@@ -11,6 +11,6 @@ fn main() -> Result<()> {
 
     println!("============ DAY TWO ============");
     let day_one_multi_frequency = day_1::calc_multiple_frequency()?;
-    println!("Final frequency value {}", day_one_multi_frequency);
+    println!("First double frequency value {}", day_one_multi_frequency);
     Ok(())
 }
